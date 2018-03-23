@@ -71,3 +71,6 @@ Config.php
 # End of https://www.gitignore.io/api/phpstorm
 
 .idea/workspace.xml
+Config.php
+.idea/workspace.xml
+*.xml
