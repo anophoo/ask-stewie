@@ -11,7 +11,7 @@ require_once('../Config.php');
 <div align="center">
     <div class="index-page">
         <div class="form">
-            <h1>Ask Stewie Anything<br></h1>
+            <h1 id="h01">Ask Stewie Anything<br></h1>
             <img width="180px" src="https://goo.gl/DkVrzS" alt="Stewie is looking at you"><br><br><br>
             <form action="Ask.php">
                 <button>ASK</button>

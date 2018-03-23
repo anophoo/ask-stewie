@@ -25,7 +25,31 @@
      padding: 15px;
      box-sizing: border-box;
      font-size: 14px;
- }
+}
+#h02 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    color: white;
+     width: 100%;
+     border: 0;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+     font-size: 24px;
+}
+#h01 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    color: #4CAF50;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
 
 #ta {
     font-family: "Roboto", sans-serif;

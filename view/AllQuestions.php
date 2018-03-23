@@ -43,9 +43,9 @@ if ( $_SESSION['logged_in'] ) {
             echo "no questions yet";
         }
         ?>
-        <h2>Hey, Stewie...</h2>
+        <h2 id="h02">Hey, Stewie...</h2>
         <?php for($idx = 0; $idx < sizeof($questionArray); $idx++): ?>
-        <form class="form">
+        <div class="form">
             <p id="p01"><?php echo $questionArray[$idx]; ?><br></p>
             <form action="../processes/ProcessAnswer.php" method="post">
                 <textarea id="ta" placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea><br>
@@ -56,12 +56,12 @@ if ( $_SESSION['logged_in'] ) {
                 <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
                 <button title="delete question" name="questionBtn>">Delete Question</button>
             </form>
-        </form>
+        </div>
         <?php endfor; ?>
     </div>
     <div align="center">
         <br><br><br>
-        <form action="../processes/ProcessLogout.php" method="post">
+        <form class="form" action="../processes/ProcessLogout.php" method="post">
             <button type="submit" title="logout" name="logout" >LOG OUT, STEWIE</button>
         </form>
     </div>
@@ -94,10 +94,12 @@ if ( $_SESSION['logged_in'] ) {
             echo "no questions yet";
         }
         ?>
-        <h2>Hey, Normal User...</h2>
+        <h2 id="h02">Hey, Normal User...</h2>
         <?php for($idx = 0; $idx < sizeof($questionArray); $idx++): ?>
-            <p class="form"><?php echo $questionArray[$idx]; ?></p>
-            <p class="form"><?php echo $answerArray[$idx]; ?><br></p>
+        <div class="form">
+            <p id="p01"><?php echo $questionArray[$idx]; ?></p>
+            <p id="p01"><?php echo $answerArray[$idx]; ?><br></p>
+        </div>
         <?php endfor; ?>
     </div>
     <div align="center">

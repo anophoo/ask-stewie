@@ -11,10 +11,10 @@ require_once('../Config.php');
     <div align='center'>
         <div class="ask-page">
             <div class="form">
-                <h1><br>Go ahead, ask...</h1>
+                <h1 id="h01">Go ahead, ask...</h1>
                 <form class="question-form" action="../processes/ProcessAsk.php" method="post">
                     <br><img width="180px" src="https://goo.gl/4RQbqJ" alt="Stewie is looking at you"><br><br><br>
-                    <textarea id="question" placeholder="write question.." name="question" style="height:90px"></textarea><br><br>
+                    <textarea id="ta" placeholder="write question.." name="question" style="height:90px"></textarea><br><br>
                     <button>SEND</button>
                 </form>
                 <form action="../view/Index.php">
