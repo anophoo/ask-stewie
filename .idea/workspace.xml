@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057a42bf-a6c8-4ac4-ae17-7c96e50e1db8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Ask.php" afterPath="$PROJECT_DIR$/Ask.php" />
-      <change beforePath="$PROJECT_DIR$/Index.php" afterPath="$PROJECT_DIR$/Index.php" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminLoginPage.php" afterPath="$PROJECT_DIR$/AdminLoginPage.php" />
+      <change beforePath="$PROJECT_DIR$/ProcessAdminLogin.php" afterPath="$PROJECT_DIR$/ProcessAdminLogin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ask.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ask.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ask.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="218">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -53,9 +51,46 @@
       <file leaf-file-name="AdminLoginPage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdminLoginPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessAdminLogin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProcessAdminLogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding>
+                <marker date="1521809780594" expanded="true" signature="258:305" ph="SELECT * FRO... admins" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessAdminRegister.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProcessAdminRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <marker date="1521809943317" expanded="true" signature="606:653" ph="SELECT * FRO... users" />
+                <marker date="1521809943317" expanded="true" signature="1097:1198" ph="INSERT INTO users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddAdmin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AddAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1521810019453" expanded="true" signature="477:574" ph="INSERT INTO admins... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +103,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>users</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,12 +130,14 @@
         <option value="$PROJECT_DIR$/ProcessAnswer.php" />
         <option value="$PROJECT_DIR$/AllQuestions.php" />
         <option value="$PROJECT_DIR$/ProcessLogout.php" />
-        <option value="$PROJECT_DIR$/ProcessAdminLogin.php" />
         <option value="$PROJECT_DIR$/ProcessAllQuestions.php" />
         <option value="$PROJECT_DIR$/AdminLoginPa.php" />
         <option value="$PROJECT_DIR$/Index.php" />
-        <option value="$PROJECT_DIR$/AdminLoginPage.php" />
         <option value="$PROJECT_DIR$/Ask.php" />
+        <option value="$PROJECT_DIR$/AdminLoginPage.php" />
+        <option value="$PROJECT_DIR$/ProcessAdminLogin.php" />
+        <option value="$PROJECT_DIR$/ProcessAdminRegister.php" />
+        <option value="$PROJECT_DIR$/AddAdmin.php" />
       </list>
     </option>
   </component>
@@ -168,26 +210,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Index.php">
+  <component name="RunManager" selected="JavaScript Debug.AddAdmin.php">
+    <configuration name="AddAdmin.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/AddAdmin.php" />
+    <configuration name="AdminLoginPage.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/AdminLoginPage.php" />
     <configuration name="AllQuestions.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/AllQuestions.php" />
     <configuration name="Ask.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/Ask.php" />
-    <configuration name="Error.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/Error.php" />
     <configuration name="Index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/Index.php" />
-    <configuration name="ProcessAsk.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ask-stewie/ProcessAsk.php" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Ask.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ProcessAsk.php" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AllQuestions.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Error.php" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Index.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AllQuestions.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Index.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.AdminLoginPage.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AddAdmin.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Ask.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.AllQuestions.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Error.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ProcessAsk.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AddAdmin.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AdminLoginPage.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Index.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Ask.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AllQuestions.php" />
       </list>
     </recent_temporary>
   </component>
@@ -204,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521750157307</updated>
-      <workItem from="1521750158710" duration="15677000" />
+      <workItem from="1521750158710" duration="16909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15677000" />
+    <option name="totallyTimeSpent" value="16909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -357,14 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProcessAdminLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProcessAnswer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -396,14 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminLoginPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -414,9 +440,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ask.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="218">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="18" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminLoginPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessAdminLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1521809780594" expanded="true" signature="258:305" ph="SELECT * FRO... admins" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessAdminRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1521809943317" expanded="true" signature="606:653" ph="SELECT * FRO... users" />
+            <marker date="1521809943317" expanded="true" signature="1097:1198" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1521810019453" expanded="true" signature="477:574" ph="INSERT INTO admins... " />
+          </folding>
         </state>
       </provider>
     </entry>
