@@ -6,7 +6,7 @@
 
 ## Seriously, Ask Him
 
-The project implements administrator authorization and visitor feedback system.
+This is a simple PHP web project which implements administrator authorization and visitor feedback system.
 
 Questions and answers are kept in local MySQL database.
 
