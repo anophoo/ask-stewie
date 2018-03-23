@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("Config.php");
+require_once('../Config.php');
 
 $_SESSION['username'] = $_POST['username'];
 
@@ -12,7 +12,7 @@ $result = $mysqli->query("SELECT * FROM admins WHERE username='$username'");
 
 if ( $result->num_rows == 0 ){ // User doesn't exist
     $_SESSION['message'] = "User with that name doesn't exist!";
-    header("location: Error.php");
+    header("location: ../view/Error.php");
 }
 else { // User exists
     $user = $result->fetch_assoc();
@@ -24,11 +24,11 @@ else { // User exists
         // This is how we'll know the admin is logged in
         $_SESSION['logged_in'] = true;
 
-        header("location: AllQuestions.php");
+        header("location: ../view/AllQuestions.php");
     }
     else {
         $_SESSION['message'] = "You have entered wrong password, try again!";
-        header("location: Error.php");
+        header("location: ../view/Error.php");
     }
 }
 

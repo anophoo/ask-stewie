@@ -6,12 +6,13 @@
  * Time: 01:53
  */
 session_start();
-include_once 'Config.php';
+require_once('../Config.php');
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <title>Questions</title>
 </head>
 <?php
@@ -44,16 +45,18 @@ if ( $_SESSION['logged_in'] ) {
         ?>
         <h2>Hey, Stewie...</h2>
         <?php for($idx = 0; $idx < sizeof($questionArray); $idx++): ?>
-            <p><?php echo $questionArray[$idx]; ?><br></p>
-            <form class="answer-form" action="../processes/ProcessAnswer.php" method="post">
-                <textarea placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea><br>
+        <form class="form">
+            <p id="p01"><?php echo $questionArray[$idx]; ?><br></p>
+            <form action="../processes/ProcessAnswer.php" method="post">
+                <textarea id="ta" placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea><br>
                 <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
                 <button  title="change answer" name="answerBtn">Change Answer</button>
             </form>
-            <form class="delete-form" action="../processes/ProcessDelete.php" method="post">
+            <form action="../processes/ProcessDelete.php" method="post">
                 <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
                 <button title="delete question" name="questionBtn>">Delete Question</button>
             </form>
+        </form>
         <?php endfor; ?>
     </div>
     <div align="center">
@@ -93,13 +96,13 @@ if ( $_SESSION['logged_in'] ) {
         ?>
         <h2>Hey, Normal User...</h2>
         <?php for($idx = 0; $idx < sizeof($questionArray); $idx++): ?>
-            <p class="question"><?php echo $questionArray[$idx]; ?><br></p>
-            <p class="answer"><?php echo $answerArray[$idx]; ?><br></p>
+            <p class="form"><?php echo $questionArray[$idx]; ?></p>
+            <p class="form"><?php echo $answerArray[$idx]; ?><br></p>
         <?php endfor; ?>
     </div>
     <div align="center">
         <br><br><br>
-        <form action="Index.php">
+        <form class="form" action="../view/Index.php">
             <button>GO BACK</button>
         </form>
     </div>

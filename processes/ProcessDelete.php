@@ -5,7 +5,7 @@
  * Date: 3/23/18
  * Time: 14:53
  */
-require 'Config.php';
+require '../Config.php';
 session_start();
 
 
@@ -18,9 +18,9 @@ $sql = "DELETE FROM questions" . " WHERE id = ('$question_id')";
 // Add question to the database
 if ( $mysqli->query($sql) ){
     // successful delete
-    header("location: AllQuestions.php");
+    header("location: ../view/AllQuestions.php");
 } else {
     // delete failed
     $_SESSION['message'] = 'Delete failed!';
-    header("location: Error.php");
+    header("location: ../view/Error.php");
 }

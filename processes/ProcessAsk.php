@@ -6,7 +6,7 @@
  * Time: 00:50
  */
 
-require 'Config.php';
+require_once('../Config.php');
 session_start();
 
 
@@ -22,9 +22,9 @@ $sql = "INSERT INTO questions (question)"
 
 // Add question to the database
 if ( $mysqli->query($sql) ){
-    header("location: Index.php");
+    header("location: ../view/Index.php");
 } else {
     $_SESSION['message'] = 'Registration failed!';
-    header("location: Error.php");
+    header("location: ../view/Error.php");
 }
 

@@ -1,12 +1,12 @@
 <?php
 session_start();
-require_once("Config.php");
+require_once("../Config.php");
 
-/* Registration process, inserts user info into the database
-   and sends account confirmation email message
+// currently not using
+
+/* Registration process, inserts admin info into the database
  */
 
-// Set session variables to be used on profile.php page
 $_SESSION['username'] = $_POST['username'];
 
 // Escape all $_POST variables to protect against SQL injections
@@ -21,7 +21,7 @@ echo "num rows: " . $result->num_rows;
 // We know user email exists if the rows returned are more than 0
 if ( $result->num_rows > 0 ) {
     $_SESSION['message'] = 'User with this username already exists!';
-    header("location: ../../application/controller/error.php");
+    header("location: ../view/Error.php");
 } else { // Email doesn't already exist in a database, proceed...
     echo $_SESSION['message'];
 
@@ -31,10 +31,10 @@ if ( $result->num_rows > 0 ) {
 
     // Add user to the database
     if ( $mysqli->query($sql) ){
-        header("location: AllQuestions.php");
+        header("location: ../view/AllQuestions.php");
     } else {
         $_SESSION['message'] = 'Registration failed!';
-        header("location: Error.php");
+        header("location: ../view/Error.php");
     }
 
 }

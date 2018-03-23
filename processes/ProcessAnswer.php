@@ -5,7 +5,7 @@
  * Date: 3/23/18
  * Time: 14:53
  */
-require 'Config.php';
+require '../Config.php';
 session_start();
 
 // Escape all $_POST variables to protect against SQL injections
@@ -18,9 +18,9 @@ $sql = "UPDATE questions SET answer = ('$answer_text') WHERE id = ('$question_id
 // update answer in the database
 if ( $mysqli->query($sql) ){
     // successful update
-    header("location: AllQuestions.php");
+    header("location: ../view/AllQuestions.php");
 } else {
     // update failed
     $_SESSION['message'] = 'Update failed!';
-    header("location: Error.php");
+    header("location: ../view/Error.php");
 }

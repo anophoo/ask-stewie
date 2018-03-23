@@ -9,7 +9,7 @@
 // temporary file to add admins manually, as we don't have admin registration on web page
 
 session_start();
-require_once("Config.php");
+require_once('../Config.php');
 
 $usernameToAdd = "stewie";
 $passwordToAdd = "wee";

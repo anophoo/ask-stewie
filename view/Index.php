@@ -1,12 +1,17 @@
 <?php
 session_start();
-require_once('Config.php');
+require_once('../Config.php');
 ?>
-
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
 <div align="center">
     <div class="index-page">
         <div class="form">
-            <h1><br>Ask Stewie Anything<br></h1>
+            <h1>Ask Stewie Anything<br></h1>
             <img width="180px" src="https://goo.gl/DkVrzS" alt="Stewie is looking at you"><br><br><br>
             <form action="Ask.php">
                 <button>ASK</button>
@@ -20,3 +25,5 @@ require_once('Config.php');
         </div>
     </div>
 </div>
+</body>
+</html>
