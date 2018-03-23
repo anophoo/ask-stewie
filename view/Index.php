@@ -1,10 +1,11 @@
 <?php
 session_start();
 require_once('../Config.php');
+$_SESSION['logged_in'] = false;
 ?>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>ASK STEWIE</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>

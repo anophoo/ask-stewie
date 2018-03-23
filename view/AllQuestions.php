@@ -40,7 +40,9 @@ if ( $_SESSION['logged_in'] ) {
             }
         } else {
             // there is no questions
-            echo "no questions yet";
+            ?>
+            <p id="h02">no questions yet</p>
+        <?php
         }
         ?>
         <h2 id="h02">Hey, Stewie...</h2>
@@ -50,7 +52,7 @@ if ( $_SESSION['logged_in'] ) {
             <form action="../processes/ProcessAnswer.php" method="post">
                 <textarea id="ta" placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea><br>
                 <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
-                <button  title="change answer" name="answerBtn">Change Answer</button>
+                <button  title="change answer" name="answerBtn">Save Answer</button>
             </form>
             <form action="../processes/ProcessDelete.php" method="post">
                 <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
@@ -91,7 +93,9 @@ if ( $_SESSION['logged_in'] ) {
             }
         } else {
             // there is no questions
-            echo "no questions yet";
+            ?>
+            <p id="h02">no questions yet</p>
+            <?php
         }
         ?>
         <h2 id="h02">Hey, Normal User...</h2>
