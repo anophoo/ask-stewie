@@ -14,7 +14,7 @@ require_once('Config.php');
             <form action="AdminLoginPage.php">
                 <button>I AM STEWIE</button>
             </form>
-            <form action="ProcessAllQuestions.php" method="post">
+            <form action="AllQuestions.php" method="post">
                 <button>SEE ALL QUESTIONS</button>
             </form>
         </div>

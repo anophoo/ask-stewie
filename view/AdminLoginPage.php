@@ -5,7 +5,7 @@
 <body>
 <div class="login-page" align="center">
     <div class="form">
-        <form class="login-form" action="ProcessAdminLogin.php" method="post">
+        <form class="login-form" action="../processes/ProcessAdminLogin.php" method="post">
             <h1>Login, Stewie</h1>
             <input type="text" placeholder="username" name="username"/><br>
             <input type="password" placeholder="password" name="password"/><br>

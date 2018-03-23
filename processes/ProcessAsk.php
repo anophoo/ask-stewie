@@ -22,11 +22,9 @@ $sql = "INSERT INTO questions (question)"
 
 // Add question to the database
 if ( $mysqli->query($sql) ){
-    echo "successful";
-//    header("location: index.php");
+    header("location: Index.php");
 } else {
     $_SESSION['message'] = 'Registration failed!';
-    echo "failed";
-//    header("location: index.php");
+    header("location: Error.php");
 }
 
