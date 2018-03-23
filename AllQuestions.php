@@ -43,15 +43,17 @@ include_once 'Config.php';
             <?php for($idx = 0; $idx < sizeof($questionArray); $idx++): ?>
                 <tr>
                     <td>Question: <br><?php echo $questionArray[$idx]; ?><br></td>
-                    <td><textarea id="<?php $idArray[$idx]?>" placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea></td>
                     <td>
                         <form class="answer-form" action="ProcessAnswer.php" method="post">
-                            <button  title="change answer" name="answer" id="<?php $idArray[$idx]?>">Change Answer</button>
+                            <textarea placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea>
+                            <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
+                            <button  title="change answer" name="answerBtn">Change Answer</button>
                         </form>
                     </td>
                     <td>
                         <form class="delete-form" action="ProcessDelete.php" method="post">
-                            <button title="delete question" name="delete" id="<?php $idArray[$idx]?>">Delete Question</button>
+                            <input type="hidden" value="<?php echo $idArray[$idx]?>" name="question_id" />
+                            <button title="delete question" name="questionBtn>">Delete Question</button>
                         </form>
                     </td>
                 </tr>
