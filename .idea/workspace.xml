@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="057a42bf-a6c8-4ac4-ae17-7c96e50e1db8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/view/AllQuestions.php" afterPath="$PROJECT_DIR$/view/AllQuestions.php" />
-      <change beforePath="$PROJECT_DIR$/view/Index.php" afterPath="$PROJECT_DIR$/view/Index.php" />
-    </list>
+    <list default="true" id="057a42bf-a6c8-4ac4-ae17-7c96e50e1db8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +35,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessAnswer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProcessAnswer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processes/ProcessAnswer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="190">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <marker date="1521816410323" expanded="true" signature="345:418" ph="UPDATE table... " />
                 <marker date="1521816410323" expanded="true" signature="345:419" ph="UPDATE questions... " />
                 <marker date="1521816410323" expanded="true" signature="509:521" ph="delete heade... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,6 +127,7 @@
         <option value="$PROJECT_DIR$/view/Ask.php" />
         <option value="$PROJECT_DIR$/view/Index.php" />
         <option value="$PROJECT_DIR$/view/AllQuestions.php" />
+        <option value="$PROJECT_DIR$/Config.php" />
       </list>
     </option>
   </component>
@@ -248,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521750157307</updated>
-      <workItem from="1521750158710" duration="24263000" />
+      <workItem from="1521750158710" duration="24581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24263000" />
+    <option name="totallyTimeSpent" value="24581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -312,14 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -484,13 +483,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/processes/ProcessAnswer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="190">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <marker date="1521816410323" expanded="true" signature="345:418" ph="UPDATE table... " />
             <marker date="1521816410323" expanded="true" signature="345:419" ph="UPDATE questions... " />
             <marker date="1521816410323" expanded="true" signature="509:521" ph="delete heade... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
