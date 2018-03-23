@@ -6,7 +6,10 @@
     </head>
     <body>
     <div align="center">
-        <?php echo $_SESSION['message']; ?>
+        <?php echo
+        session_start();
+        require_once('../Config.php');
+        $_SESSION['message']; ?>
     </div>
     </body>
 </html>
