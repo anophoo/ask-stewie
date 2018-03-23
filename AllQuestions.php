@@ -16,7 +16,6 @@ include_once 'Config.php';
 </head>
 <body>
     <div align="center">
-
         <?php
         $sql = "SELECT * FROM questions;";
         $result = mysqli_query($mysqli, $sql);
@@ -45,8 +44,16 @@ include_once 'Config.php';
                 <tr>
                     <td>Question: <br><?php echo $questionArray[$idx]; ?><br></td>
                     <td><textarea id="<?php $idArray[$idx]?>" placeholder="write answer.." name="answer" style="height:60px"><?php echo $answerArray[$idx]?></textarea></td>
-                    <td><button title="change answer" name="answer" id="<?php $idArray[$idx]?>">Change Answer</button> </td>
-                    <td><button title="delete question" name="delete" id="<?php $idArray[$idx]?>">Delete Question</button> </td>
+                    <td>
+                        <form class="answer-form" action="ProcessAnswer.php" method="post">
+                            <button  title="change answer" name="answer" id="<?php $idArray[$idx]?>">Change Answer</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form class="delete-form" action="ProcessDelete.php" method="post">
+                            <button title="delete question" name="delete" id="<?php $idArray[$idx]?>">Delete Question</button>
+                        </form>
+                    </td>
                 </tr>
             <?php endfor; ?>
         </table>
